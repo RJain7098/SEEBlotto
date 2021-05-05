@@ -28,9 +28,6 @@ public class blotto {
         Entry[] entries = new Entry[max];
         entries[0] = new Entry(new int[]{1, 1, 59, 17, 19, 1, 1, 1, 0, 0});
         entries[1] = new Entry(new int[]{1, 8, 50, 21, 9, 4, 3, 1, 2, 1});
-//        entries[2] = new Entry(new int[]{1, 1, 90, 4, 4, 0, 0, 0, 0, 0});
-//        entries[3] = new Entry(new int[]{1, 1, 35, 32, 31, 0, 0, 0, 0, 0});
-//        entries[4] = new Entry(new int[]{0, 0, 34, 33, 33, 0, 0, 0, 0, 0});
         for (int i = 2; i < 100; i++) {
             entries[i] = new Entry(new int[]{33, 33, 34, 0, 0, 0, 0, 0, 0, 0});
         }
@@ -38,8 +35,7 @@ public class blotto {
             entries[i] = new Entry(new int[]{0, 0, 36, 33, 31, 0, 0, 0, 0, 0});
         }
         for (int i = 400; i < 600; i++) {
-            entries[i] = new Entry(new int[]{1, 1, 60, 18, 15, 2, 2, 2, 0, 0});
-            //entries[i] = new Entry();
+            entries[i] = new Entry(new int[]{1, 1, 55, 19, 19, 2, 2, 2, 0, 0});
         }
         for (int i = 600; i < 800; i++) {
             entries[i] = new Entry(new int[]{16, 16, 58, 8, 1, 1, 0, 0, 0, 0});
